@@ -2,7 +2,6 @@ import styles from '../styles/Home.module.css'
 import Router from 'next/router';
 
 export default function Home() {
-  console.log(Router);
   return (
     <div className={styles.container}>
       <main className={styles.main}>
